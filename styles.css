@@ -142,6 +142,28 @@ h2::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; }
 .chips span { font: 13px var(--mono); padding: 5px 10px; border: 1px solid var(--line); background: rgba(37, 99, 235, .1); color: var(--text); }
 
+.quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 18px; }
+.quote {
+  margin: 0; padding: 24px 22px 20px; position: relative;
+  background: var(--panel); border: 1px solid var(--line);
+  clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 18px 100%, 0 calc(100% - 18px));
+  display: flex; flex-direction: column; gap: 18px;
+}
+.quote::before {
+  content: "“"; position: absolute; top: -6px; right: 22px;
+  font: 700 72px var(--display); color: var(--cyan); opacity: .25;
+}
+.quote blockquote { margin: 0; color: var(--text); font-size: 15px; }
+.quote figcaption { margin-top: auto; display: flex; gap: 14px; align-items: center; }
+.quote img {
+  width: 56px; height: 56px; border-radius: 50%; flex: none;
+  border: 2px solid var(--cyan); box-shadow: 0 0 14px rgba(56, 189, 248, .45);
+}
+.quote figcaption span { display: flex; flex-direction: column; font-size: 13px; color: var(--muted); line-height: 1.4; }
+.quote figcaption b { color: var(--text); font: 600 16px var(--display); }
+.quote small { color: var(--cyan); font-size: 11px; margin-top: 2px; }
+.source { color: var(--muted); font-size: 12px; margin-top: 14px; }
+
 .contact p { color: var(--muted); }
 .mail { font-size: clamp(18px, 3vw, 26px); }
 .mail a { color: var(--volt); text-shadow: 0 0 14px rgba(125, 249, 255, .45); }
@@ -149,8 +171,10 @@ h2::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg
 footer { position: relative; z-index: 2; text-align: center; color: var(--muted); font-size: 12px; padding: 50px 20px 30px; }
 
 @media (max-width: 640px) {
-  .nav nav { gap: 14px; }
-  .nav nav a { font-size: 12px; letter-spacing: .06em; }
+  .nav { flex-wrap: wrap; gap: 8px; }
+  .nav nav { gap: 12px; flex-wrap: wrap; }
+  .nav nav a { font-size: 11px; letter-spacing: .06em; }
+  .quotes { grid-template-columns: 1fr; }
   .hero { min-height: auto; padding-top: 70px; }
 }
 @media (prefers-reduced-motion: reduce) {
