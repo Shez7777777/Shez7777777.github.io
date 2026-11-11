@@ -60,7 +60,6 @@ main { position: relative; z-index: 2; max-width: 1080px; margin: 0 auto; paddin
 
 /* hero */
 .hero { min-height: 86vh; display: flex; flex-direction: column; justify-content: center; padding: 60px 0 40px; }
-.tag { color: var(--cyan); font-size: 13px; margin: 0 0 18px; }
 h1, h2, h3 { font-family: var(--display); }
 h1 {
   font-size: clamp(44px, 8vw, 92px);
@@ -83,7 +82,6 @@ h1 {
 .glitch.zap::after { opacity: .7; transform: translate(3px, -1px); clip-path: inset(60% 0 8% 0); }
 
 .role { font: 600 clamp(18px, 2.4vw, 24px) var(--display); color: var(--text); margin: 18px 0 6px; letter-spacing: .04em; }
-.bolt { color: var(--volt); text-shadow: 0 0 12px var(--volt); }
 .lead { max-width: 62ch; color: var(--muted); font-size: 17px; }
 
 .cta { display: flex; flex-wrap: wrap; gap: 12px; margin: 26px 0; }
