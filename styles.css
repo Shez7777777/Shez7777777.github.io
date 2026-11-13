@@ -210,3 +210,5 @@ footer { position: relative; z-index: 2; text-align: center; color: var(--muted)
   * { transition: none !important; }
   html { scroll-behavior: auto; }
 }
+.org-logo.dark { background: #0e100f; padding: 4px; }
+.org-logo.dark img { max-height: 48px; max-width: 116px; }
