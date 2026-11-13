@@ -7,9 +7,10 @@
   <meta name="description" content="AI engineer in Karachi building LLM agents, ML forecasting and backend systems.">
   <meta property="og:title" content="Muhammad Shahzad · AI Engineer">
   <meta property="og:description" content="LLM agents, ML forecasting and backend systems.">
+  <meta property="og:image" content="https://shez7777777.github.io/img/shahzad.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Manrope:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M18 2 6 18h8l-2 12 12-16h-8z' fill='%2338bdf8'/></svg>">
 </head>
@@ -17,156 +18,221 @@
   <canvas id="storm" aria-hidden="true"></canvas>
 
   <header class="nav">
-    <a class="logo" href="#top">MS<span>/</span>AI</a>
+    <a class="logo" href="#top">shahzad<span>.</span></a>
     <nav>
       <a href="#work">Work</a>
       <a href="#projects">Projects</a>
       <a href="#education">Education</a>
       <a href="#recommendations">Reviews</a>
-      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-cta">Say hi</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
-      <h1 class="glitch" data-text="Muhammad Shahzad">Muhammad Shahzad</h1>
-      <p class="role">AI Engineer · LLM agents · ML · backend</p>
-      <p class="lead">
-        I build AI systems that do real work inside a business: agents that draft documents,
-        negotiate over voice, or find wasted cloud spend, and the APIs and data pipelines
-        underneath them. Currently an Associate Consultant at Systems Limited.
-      </p>
-      <div class="cta">
-        <a class="btn primary" href="#projects">See projects</a>
-        <a class="btn" href="https://github.com/Shez7777777" target="_blank" rel="noopener">GitHub</a>
-        <a class="btn" href="https://www.linkedin.com/in/muhammad-shahzad-44a9a226a/" target="_blank" rel="noopener">LinkedIn</a>
+      <div class="hero-text">
+        <p class="hello">Hi, I'm</p>
+        <h1 class="glitch" data-text="Muhammad Shahzad">Muhammad Shahzad</h1>
+        <p class="role">AI engineer working on LLM agents, ML and the backend that holds them together.</p>
+        <p class="lead">
+          Most of my work so far has been for enterprise clients: a Copilot Studio agent that drafts
+          contracts from a conversation, a voice agent that negotiates, an assistant that spots wasted
+          Azure spend. Right now I'm at Systems Limited building APIs and data models for a port
+          operator in Abu Dhabi, and building my own agent projects on the side.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">See my projects</a>
+          <a class="btn" href="https://github.com/Shez7777777" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/muhammad-shahzad-44a9a226a/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
       </div>
-      <ul class="stats mono">
-        <li><b>3.53</b> CGPA · FAST-NUCES</li>
-        <li><b>6×</b> Dean's List</li>      </ul>
+
+      <figure class="portrait">
+        <div class="frame">
+          <img src="img/shahzad.jpg" alt="Muhammad Shahzad" width="303" height="416">
+        </div>
+        <figcaption>
+          <span class="now-dot"></span>
+          <span>Now at</span>
+          <img src="img/logos/systems-light-bg.svg" alt="Systems Limited" class="now-logo">
+        </figcaption>
+      </figure>
     </section>
 
     <section id="work" class="block">
-      <h2><span class="mono">01</span> Experience</h2>
-      <ol class="timeline">
-        <li>
-          <div class="when mono">Aug 2026 — now</div>
-          <h3>Associate Consultant <em>@ Systems Limited</em></h3>
-          <p>Backend work on an enterprise platform for AD Ports Group (Abu Dhabi): turning Figma
-            designs into database schemas and workflow stages, building REST APIs in .NET, and
-            testing roles and validations in Postman.</p>
-        </li>
-        <li>
-          <div class="when mono">Jun 2026 — now</div>
-          <h3>AI Solutions Associate <em>@ Emkan AI · part-time</em></h3>
-          <p>Designed the AI architecture for an AI sales agent and a procurement product, tested
-            PIE360 end to end, and built the company website.</p>
-        </li>
-        <li>
-          <div class="when mono">Mar — Aug 2026</div>
-          <h3>Software Engineer I, AI team <em>@ Imperium Dynamics</em></h3>
-          <p>Built a Copilot Studio agent that generates contract documents from a conversation
-            (Power Automate + Dataverse), a voice negotiation agent, and the first version of an
-            Azure cost-saving assistant. Started as a trainee building a Microsoft Fabric pipeline
-            with PySpark and Delta Lake.</p>
-        </li>
-        <li>
-          <div class="when mono">2025</div>
-          <h3>AI/ML Intern <em>@ AI Secret Sol</em></h3>
-          <p>Prepared datasets for SafeSurf AI: took raw data on multiple entities and turned it into
-            clean, structured formats the product's models could use.</p>
-        </li>
-      </ol>
-    </section>
+      <div class="section-head">
+        <h2>Where I've worked</h2>
+        <p>Karachi, on-site, unless it says otherwise.</p>
+      </div>
 
-    <section id="education" class="block">
-      <h2><span class="mono">02</span> Education</h2>
-      <ol class="timeline">
-        <li>
-          <div class="when mono">2022 — 2026</div>
-          <h3>BS Computer Science <em>@ FAST-NUCES Karachi</em></h3>
-          <p>CGPA 3.53, with 3.73 in each of the last two semesters and six Dean's List semesters.
-            A+ in AI, Computer Vision and Linear Algebra. Final year project CloudBuddy got an A+ both semesters.</p>
-        </li>
-        <li>
-          <div class="when mono">2020 — 2022</div>
-          <h3>HSC <em>@ The Navigator Science School and College</em></h3>
-          <p>92.36%, grade A+.</p>
-        </li>
-        <li>
-          <div class="when mono">2009 — 2020</div>
-          <h3>SSC, Pre-Engineering <em>@ The City School</em></h3>
-          <p>Grade A.</p>
-        </li>
-      </ol>
-    </section>
+      <div class="jobs">
+        <article class="job">
+          <div class="org-logo"><img src="img/logos/systems-light-bg.svg" alt="Systems Limited"></div>
+          <div class="job-body">
+            <header>
+              <h3>Associate Consultant</h3>
+              <span class="when">Aug 2026 – present</span>
+            </header>
+            <p class="org">Systems Limited</p>
+            <p>Backend work on an enterprise platform for AD Ports Group. I take Figma designs for new
+              services, turn them into tables and workflow stages, build the .NET APIs, and test roles
+              and validations with Postman collections.</p>
+            <p class="tags"><span>.NET</span><span>Angular</span><span>SQL Server</span><span>Postman</span></p>
+          </div>
+        </article>
 
-    <section id="projects" class="block">
-      <h2><span class="mono">03</span> Projects</h2>
-      <div class="grid">
-        <article class="card featured">
-          <div class="card-top mono"><span>agents · ml · aws</span><span>python</span></div>
-          <h3>CloudBuddy — FinOps agent</h3>
-          <p>LightGBM forecasts EC2 usage, simple rules turn that into stop/downsize suggestions with
-            cost and CO₂ savings, and an LLM agent explains them. The agent can only <i>request</i>
-            changes; a person approves, and AWS runs it as a dry run by default.</p>
-          <p class="metric mono">WAPE 12.0% vs 14.4% naive baseline</p>
-          <a class="more" href="https://github.com/Shez7777777/cloudbuddy-finops-agent" target="_blank" rel="noopener">view repo →</a>
+        <article class="job">
+          <div class="org-logo"><img src="img/logos/emkan-dark.png" alt="Emkan AI"></div>
+          <div class="job-body">
+            <header>
+              <h3>AI Solutions Associate</h3>
+              <span class="when">Jun 2026 – present · part-time, remote</span>
+            </header>
+            <p class="org">Emkan AI</p>
+            <p>Designed the AI architecture for two products, an AI sales agent and a procurement
+              solution. I also test PIE360 end to end and built and deployed the company website.</p>
+          </div>
         </article>
-        <article class="card featured">
-          <div class="card-top mono"><span>langgraph · hitl</span><span>python</span></div>
-          <h3>Doc Copilot</h3>
-          <p>A LangGraph agent that works out which document you need, asks only for missing details,
-            validates dates and emails in code, confirms with you, then writes the .docx. Pauses and
-            resumes with interrupts and a checkpointer.</p>
-          <p class="metric mono">3 templates · tested graph flow</p>
-          <a class="more" href="https://github.com/Shez7777777/doc-copilot-agent" target="_blank" rel="noopener">view repo →</a>
+
+        <article class="job">
+          <div class="org-logo"><img src="img/logos/imperium.png" alt="Imperium Dynamics"></div>
+          <div class="job-body">
+            <header>
+              <h3>Software Engineer I, AI team</h3>
+              <span class="when">May – Aug 2026</span>
+            </header>
+            <p class="org">Imperium Dynamics</p>
+            <ul>
+              <li>Built a document-generation agent in Copilot Studio with Power Automate and Dataverse:
+                it asks what document you need, collects the details and produces the file.</li>
+              <li>Built a voice negotiation agent on Copilot Studio's voice mode.</li>
+              <li>Worked on the architecture and MVP of AI Cost Coach, which suggests Azure savings.</li>
+            </ul>
+            <div class="sub-role">
+              <header>
+                <h4>AI Engineer Trainee</h4>
+                <span class="when">Mar – Apr 2026</span>
+              </header>
+              <p>Built a Microsoft Fabric pipeline (medallion architecture, PySpark, Delta Lake) and
+                learned LangChain and FastAPI on the job.</p>
+            </div>
+            <p class="tags"><span>Copilot Studio</span><span>Power Automate</span><span>Dataverse</span><span>Azure</span><span>Fabric</span></p>
+          </div>
         </article>
-        <article class="card featured">
-          <div class="card-top mono"><span>rag · evaluation</span><span>python</span></div>
-          <h3>arXiv RAG assistant</h3>
-          <p>Answers questions from 800 arXiv abstracts with citations, and drops any citation the
-            model makes up. BM25, dense and hybrid (RRF) retrieval, compared with a known-item eval.</p>
-          <p class="metric mono">BM25 recall@5 0.93 · MRR 0.90</p>
-          <a class="more" href="https://github.com/Shez7777777/arxiv-rag-assistant" target="_blank" rel="noopener">view repo →</a>
-        </article>
-        <article class="card">
-          <div class="card-top mono"><span>oauth · llm</span><span>flask</span></div>
-          <h3>AI Slack bot</h3>
-          <p>Connects to a Slack workspace with OAuth 2.0, writes a post from a prompt with
-            Llama 3.3 70B, shows a preview and publishes it. Deployed on Render.</p>
-          <a class="more" href="https://github.com/Shez7777777/ai_slack_bot" target="_blank" rel="noopener">view repo →</a>
-        </article>
-        <article class="card">
-          <div class="card-top mono"><span>sql · dashboards</span><span>sqlite</span></div>
-          <h3>Sneaker resale analytics</h3>
-          <p>Cleaned 10,000 sales records, wrote 8 SQL analyses on profit, ROI and inventory turnover,
-            and built a Looker Studio dashboard.</p>
-          <a class="more" href="https://github.com/Shez7777777/thrift-sneaker-analytics" target="_blank" rel="noopener">view repo →</a>
+
+        <article class="job">
+          <div class="org-logo initials">AS</div>
+          <div class="job-body">
+            <header>
+              <h3>AI/ML Intern</h3>
+              <span class="when">2025</span>
+            </header>
+            <p class="org">AI Secret Sol</p>
+            <p>Prepared datasets for SafeSurf AI, turning raw data about many entities into clean,
+              structured formats the product could use.</p>
+          </div>
         </article>
       </div>
     </section>
 
-    <section id="skills" class="block">
-      <h2><span class="mono">04</span> Skills</h2>
-      <div class="skills">
-        <div>
-          <h3>AI / ML</h3>
-          <p class="chips"><span>LLM agents</span><span>LangGraph</span><span>LangChain</span><span>RAG</span><span>prompt design</span><span>LightGBM</span><span>XGBoost</span><span>forecasting</span><span>pandas</span></p>
-        </div>
-        <div>
-          <h3>Microsoft &amp; cloud</h3>
-          <p class="chips"><span>Copilot Studio</span><span>Power Automate</span><span>Dataverse</span><span>Fabric</span><span>PySpark</span><span>Azure</span><span>AWS · boto3</span></p>
-        </div>
-        <div>
-          <h3>Backend</h3>
-          <p class="chips"><span>Python</span><span>FastAPI</span><span>Flask</span><span>.NET</span><span>SQL Server</span><span>REST</span><span>OAuth 2.0</span><span>Docker</span><span>CI/CD</span></p>
-        </div>
+    <section id="projects" class="block">
+      <div class="section-head">
+        <h2>Things I've built</h2>
+        <p>Code, tests and write-ups are on GitHub. The numbers are from running them.</p>
+      </div>
+      <div class="grid">
+        <article class="card big">
+          <p class="kicker">Agents · ML · AWS</p>
+          <h3>CloudBuddy, a FinOps agent</h3>
+          <p>Started as my final year project. LightGBM forecasts EC2 usage, simple rules turn that into
+            stop or downsize suggestions with cost and CO₂ savings, and an LLM agent explains them. The
+            agent can only ask for a change: a person approves it, and AWS runs it as a dry run first.</p>
+          <p class="metric">12.0% WAPE, vs 14.4% for last week's pattern</p>
+          <a class="more" href="https://github.com/Shez7777777/cloudbuddy-finops-agent" target="_blank" rel="noopener">Code &amp; write-up</a>
+        </article>
+        <article class="card">
+          <p class="kicker">LangGraph · human in the loop</p>
+          <h3>Doc Copilot</h3>
+          <p>Works out which document you need, asks only for what's missing, checks dates and emails in
+            code, confirms with you, then writes the .docx. My own take on the agent I built at work.</p>
+          <a class="more" href="https://github.com/Shez7777777/doc-copilot-agent" target="_blank" rel="noopener">Code &amp; write-up</a>
+        </article>
+        <article class="card">
+          <p class="kicker">RAG · evaluation</p>
+          <h3>arXiv RAG assistant</h3>
+          <p>Answers from 800 paper abstracts and deletes any citation the model invents. I compared
+            BM25, dense and hybrid search, and plain BM25 won, which surprised me.</p>
+          <p class="metric">recall@5 0.93 · MRR 0.90</p>
+          <a class="more" href="https://github.com/Shez7777777/arxiv-rag-assistant" target="_blank" rel="noopener">Code &amp; write-up</a>
+        </article>
+        <article class="card">
+          <p class="kicker">OAuth · Llama 3.3</p>
+          <h3>AI Slack bot</h3>
+          <p>Connects to any Slack workspace, drafts a post from a short prompt, previews it and
+            publishes it. Deployed on Render.</p>
+          <a class="more" href="https://github.com/Shez7777777/ai_slack_bot" target="_blank" rel="noopener">Code</a>
+        </article>
+        <article class="card">
+          <p class="kicker">SQL · dashboards</p>
+          <h3>Sneaker resale analytics</h3>
+          <p>10,000 sales records cleaned, 8 SQL analyses on profit, ROI and how long stock sits,
+            and a Looker Studio dashboard on top.</p>
+          <a class="more" href="https://github.com/Shez7777777/thrift-sneaker-analytics" target="_blank" rel="noopener">Code</a>
+        </article>
+      </div>
+
+      <div class="toolbox">
+        <p><b>Day to day I use</b> Python, LangGraph, LangChain, LightGBM, pandas, PySpark, FastAPI,
+          .NET, SQL Server, Copilot Studio, Power Automate, Azure, AWS, Docker and Git.</p>
+      </div>
+    </section>
+
+    <section id="education" class="block">
+      <div class="section-head">
+        <h2>Education</h2>
+      </div>
+      <div class="jobs">
+        <article class="job">
+          <div class="org-logo"><img src="img/logos/fast.jpg" alt="FAST-NUCES"></div>
+          <div class="job-body">
+            <header>
+              <h3>BS Computer Science</h3>
+              <span class="when">2022 – 2026</span>
+            </header>
+            <p class="org">FAST-NUCES, Karachi</p>
+            <p>CGPA 3.53, with 3.73 in each of my last two semesters and the Dean's List six times.
+              A+ in AI, Computer Vision and Linear Algebra, and an A+ for CloudBuddy in both semesters
+              of the final year project.</p>
+          </div>
+        </article>
+        <article class="job compact">
+          <div class="org-logo initials">NS</div>
+          <div class="job-body">
+            <header>
+              <h3>HSC</h3>
+              <span class="when">2020 – 2022</span>
+            </header>
+            <p class="org">The Navigator Science School and College · 92.36%, A+</p>
+          </div>
+        </article>
+        <article class="job compact">
+          <div class="org-logo"><img src="img/logos/cityschool.png" alt="The City School"></div>
+          <div class="job-body">
+            <header>
+              <h3>SSC (Pre-Engineering)</h3>
+              <span class="when">2009 – 2020</span>
+            </header>
+            <p class="org">The City School · Grade A</p>
+          </div>
+        </article>
       </div>
     </section>
 
     <section id="recommendations" class="block">
-      <h2><span class="mono">05</span> Recommendations</h2>
+      <div class="section-head">
+        <h2>What people say</h2>
+        <p>From my <a href="https://www.linkedin.com/in/muhammad-shahzad-44a9a226a/" target="_blank" rel="noopener">LinkedIn recommendations</a>.</p>
+      </div>
       <div class="quotes">
         <figure class="quote">
           <blockquote>
@@ -177,12 +243,8 @@
             collaborate with the team, and grow with every challenge.
           </blockquote>
           <figcaption>
-            <img src="img/sumsam.png" alt="Sumsam Ali" width="56" height="56" loading="lazy">
-            <span>
-              <b>Sumsam Ali</b>
-              Dev Manager, Data · Executive Team @ Imperium Dynamics
-              <small class="mono">senior colleague · Aug 2026</small>
-            </span>
+            <img src="img/sumsam.png" alt="Sumsam Ali" width="52" height="52" loading="lazy">
+            <span><b>Sumsam Ali</b>Dev Manager, Data · Imperium Dynamics</span>
           </figcaption>
         </figure>
         <figure class="quote">
@@ -194,26 +256,22 @@
             data-handling tasks assigned to him.
           </blockquote>
           <figcaption>
-            <img src="img/maryam.png" alt="Maryam Anayat Ali" width="56" height="56" loading="lazy">
-            <span>
-              <b>Maryam Anayat Ali</b>
-              Idea seller shop
-              <small class="mono">worked together at AI Secret Sol · Nov 2025</small>
-            </span>
+            <img src="img/maryam.png" alt="Maryam Anayat Ali" width="52" height="52" loading="lazy">
+            <span><b>Maryam Anayat Ali</b>worked with me at AI Secret Sol</span>
           </figcaption>
         </figure>
       </div>
-      <p class="source mono">from <a href="https://www.linkedin.com/in/muhammad-shahzad-44a9a226a/" target="_blank" rel="noopener">LinkedIn recommendations</a></p>
     </section>
 
     <section id="contact" class="block contact">
-      <h2><span class="mono">06</span> Contact</h2>
-      <p>Hiring for AI engineering, or want to build something together? Email is the fastest way.</p>
-      <p class="mail mono"><a href="mailto:shahzaddaim04@gmail.com">shahzaddaim04@gmail.com</a></p>
+      <h2>Let's talk</h2>
+      <p>If you're hiring for AI engineering, or you have an agent or data problem you'd like a hand with,
+        send me an email.</p>
+      <a class="mail" href="mailto:shahzaddaim04@gmail.com">shahzaddaim04@gmail.com</a>
     </section>
   </main>
 
-  <footer class="mono">© <span id="year">2026</span> Muhammad Shahzad · Karachi</footer>
+  <footer>© <span id="year">2026</span> Muhammad Shahzad · Karachi</footer>
 
   <script src="main.js"></script>
 </body>

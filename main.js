@@ -87,6 +87,6 @@ document.getElementById("year").textContent = new Date().getFullYear();
 
 if (!calm) {
   frame();
-  setTimeout(strike, 900);
-  setInterval(() => { if (Math.random() < 0.5) strike(); }, 4500);
+  setTimeout(strike, 1200);
+  setInterval(() => { if (Math.random() < 0.4) strike(); }, 7000);
 }
