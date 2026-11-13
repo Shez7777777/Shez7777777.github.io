@@ -124,10 +124,10 @@ h2 { font-size: clamp(26px, 3.2vw, 34px); margin: 0; line-height: 1.2; }
 .job:hover { border-color: rgba(69, 196, 255, .5); }
 .org-logo {
   width: 132px; height: 64px; border-radius: 12px; background: #fff;
-  display: grid; place-items: center; padding: 10px 12px; align-self: start;
+  display: grid; place-items: center; padding: 7px 10px; align-self: start;
 }
 .org-logo { overflow: hidden; }
-.org-logo img { display: block; max-width: 108px; max-height: 44px; width: auto; height: auto; object-fit: contain; }
+.org-logo img { display: block; max-width: 100%; max-height: 50px; width: auto; height: auto; object-fit: contain; }
 .org-logo.initials { background: linear-gradient(135deg, #16306a, #0f1f44); border: 1px solid var(--line); color: var(--volt); font: 700 22px var(--display); letter-spacing: .06em; }
 .job header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 2px 14px; }
 .job h3 { margin: 0; font-size: 20px; }
@@ -210,5 +210,5 @@ footer { position: relative; z-index: 2; text-align: center; color: var(--muted)
   * { transition: none !important; }
   html { scroll-behavior: auto; }
 }
-.org-logo.dark { background: #0e100f; padding: 4px; }
-.org-logo.dark img { max-height: 48px; max-width: 116px; }
+.org-logo.dark { background: #0e100f; padding: 0; }
+.org-logo.dark img { width: 100%; height: 100%; max-width: none; max-height: none; object-fit: cover; }
